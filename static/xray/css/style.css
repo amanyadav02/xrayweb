@@ -1,0 +1,77 @@
+.abc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border:2px solid #4f868c!important;
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+
+}
+.abcaman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.abc1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 18rem;    
+}
+.abc{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abc100{
+    border: 2px solid black;
+}
+.abs10000{
+    background-color:gray;
+}
+.ab1{
+    width: 15rem;
+    height: 3rem;
+    border: 2px solid #4f868c!important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+}
+.abcv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rebeccapurple;
+    font-size: larger;
+}
+.over{
+    background-color: black;
+}
+.heada{
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ab1:hover{
+    background-color:#4f868c!important;
+}
+.containerabc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.jhu{
+    background-color: white;
+}

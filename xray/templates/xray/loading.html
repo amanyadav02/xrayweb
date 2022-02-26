@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'todo/css/index2.css' %}">
+  </head>
+  <body>
+      <div class="loader_bg">
+          <div class="loader"></div>
+      </div>
+    <!-- <h1>hello bro</h1> -->
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        },700);
+    </script>
+  </body>
+</html>

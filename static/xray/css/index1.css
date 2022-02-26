@@ -1,0 +1,72 @@
+.ama{
+    background: url('../image/bg.png');
+}
+.bg-dark{
+	background-color: #4f868c!important;
+}
+.ak47{
+    position: sticky;
+    top: 0px;
+}
+.request{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3px;
+}
+.aman{
+    height: 35rem;
+}
+.head{
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head0{
+    background-color:  #4f868c!important;
+    width: 30%;
+}
+.head1{
+    text-align: center;
+    align-items: center;
+}
+.contact{
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+}
+.contact10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact1{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.body1{
+    background:url('../image/bg.png')
+}
+.lb{
+    color: white;
+}
+.conthr{
+    background-color:white;
+    width: 30%;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-group{
+    width: 70%;
+}
+.contact10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

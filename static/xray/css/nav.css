@@ -1,0 +1,241 @@
+
+/* astute main services */
+.container1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.bdimg{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+}
+.bdh{
+    background-color: #4f868c!important;
+}
+.container2{
+    margin: 1rem;
+}
+.container12345{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.hr12000{
+    width: 50%;
+    background-color: #4f868c!important;
+}
+/* footer css */
+.footer{
+    background-color: #4f868c!important;
+}
+.footerlogo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cus{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 3.1rem;
+}
+.cus1{
+    color:#4f868c!important;
+}
+.cus2{
+    color: red;
+}
+.cuso{
+    padding-top: 10px;
+}
+/* about us css */
+.about{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.abouthr{
+    background-color: black;
+    width: 30%;
+}
+/* contact html css end here  */
+/* about first row start */
+.form-group{
+    width: 70%;
+}
+.contact10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-fluid{
+    height: 30rem;
+    width: 45rem;
+}
+.container13{
+    margin-top: 2rem;
+    align-items: center;
+    border: 2px solid #4f868c!important;;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.container11{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+/* about first row ends */
+/* second row starts */
+/* second row ends */
+
+/* third row starts */
+.img-fluid{
+    height: 30rem;
+    width: 45rem;
+}
+.container16{
+    margin-top: 2rem;
+    align-items: center;
+    border: 2px solid #4f868c!important;;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.container14{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* third row ends here */
+
+.container10{
+    background-color:#e2e2db;
+}
+.abp{
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* construction css */
+.constu{
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+}
+.lb1{
+    color: white;
+}
+.construction input{
+    width: 70%;
+    border: 3px solid  #4f868c!important;
+    border-radius: 10px;
+}
+#id_maintype,#id_projecttype{
+    width: 70%;
+    border: 3px solid  #4f868c!important;
+    border-radius: 10px;
+}
+.body2{
+    background:url('../images/1000.jpg');
+}
+.docimg input{
+    background-color: white;
+}
+/* constructions css ends here */
+/* detail page css */
+.detail1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.detail{
+    background-color:  #4f868c!important;
+    width: 50%;
+}
+.body100{
+    background-color: black;
+}
+.makepayment{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+/* detail page css  ends here */
+/* responsive website */
+@media(max-width:586px){
+    .aman img{
+        height: 500px;
+    }
+}
+@media(max-width:790px){
+    .container1{
+        flex-direction: column;
+    }
+}
+@media(max-width:625px){
+    .container4{
+        flex-direction: column;
+    }
+}
+/* for about page */
+
+@media(max-width:716px){
+    .container11{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .container14{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    }
+    
+    
+    
+    @media(min-width:716px){
+        .container16{
+            margin-top: 2rem;
+            align-items: center;
+            border: 2px solid #4f868c!important;;
+            height: 25rem;
+            width: 48rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+        .container13{
+            margin-top: 2rem;
+        align-items: center;
+        border: 2px solid #4f868c!important;;
+        height: 25rem;
+        width: 48rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    
+        }
+    }
+    /* about page ends */

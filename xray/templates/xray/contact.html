@@ -1,0 +1,39 @@
+<div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+  {% extends 'xray/base.html' %}
+  {% load static %}
+  {% block title %}Contact Us{% endblock title %}
+  
+  {% block body %}
+  <body class="body1">
+  <h1 class="contact">Contact Us</h1>
+  <hr class="conthr">
+  <p class="contact">We will respond as soon as possible within the next 24 hours</p>
+  
+  <form class="contact1" method="POST" action="{% url 'contact' %}" >
+      {% csrf_token %}
+      <div class="contact10">
+      <div class="form-group">
+        <label class="lb" for="exampleFormControlInput1">Full Name</label>
+        <input required type="text" name='name' class="form-control" id="exampleFormControlInput1" placeholder="*NAME">
+      </div>
+      <div class="form-group">
+        <label class="lb" for="exampleFormControlInput1">Phone Number</label>
+        <input required type="number" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="*Phone Number">
+      </div>
+      <div class="form-group">
+        <label class="lb" for="exampleFormControlInput1">Email address</label>
+        <input required type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="*Email">
+      </div>
+      <div class="form-group">
+        <label class="lb" for="exampleFormControlTextarea1">Your Message</label>
+        <textarea required name="query" placeholder="Write Your Message Here" class="form-control"  id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="container contain">
+          <button type="submit" class="btn btn-secondary btn-success btn-lg">Submit</button>
+      </div>
+    </div>
+    </form>
+  </body>
+  {% endblock body %}
